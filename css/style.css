@@ -1,3 +1,17 @@
+/* Styling */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p, ul, table {
+    margin-bottom: 15px;
+}
+
+/* Header */
+
 header {
     background-color: #4EA0FF;
     background-image: url(/img/pattern.png);
@@ -12,6 +26,33 @@ header {
     margin-left: 5px;
 }
 
-h1 {
-    font-size: xx-large;
+/* Body */
+
+body {
+    margin-left: 5px;
 }
+
+/* Title */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Author and date */
+#aut_date {
+    color: gray;
+    font-weight: bold;
+}
+
+/* Article Images */
+#article_images {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+/* Paragraphs */
+.highlight {
+    background-color: yellow;
+}
+
