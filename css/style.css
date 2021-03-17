@@ -15,20 +15,19 @@ p, ul, table {
 header {
     background-color: #4EA0FF;
     background-image: url(/img/pattern.png);
-    background-size: 40%;
+    background-size: 30%;
     height: 100px;
 }
 
 #logo {
-    width: 20%;
-    height: auto;
-    margin-top: 30px;
-    margin-left: 5px;
+    height: 50px;
+    margin-top: 40px;
+    padding-left: 5px;
 }
 
-/* Body */
+/* Left Margin */
 
-body {
+main, footer{
     margin-left: 5px;
 }
 
@@ -55,4 +54,50 @@ h1 {
 .highlight {
     background-color: yellow;
 }
+
+/* Table */
+
+table {
+    border-spacing: 0;
+}
+
+thead {
+    background-color: #20A9E5;
+    color: white;
+}
+
+#wide_heading {
+    width: 50%;
+}
+
+.blue_row {
+    background-color: #B1E5F2;
+}
+
+/* Footer */
+
+#interest {
+    font-weight: bolder;
+    color: gray;
+    font-size: 18px;
+}
+
+.foot_img {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    height: 200px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#foot_img1 {
+    background-image: url(/img/monitor.jpg);
+}
+
+#foot_img2 {
+    background-image: url(/img/graph.jpg);
+}
+
 
